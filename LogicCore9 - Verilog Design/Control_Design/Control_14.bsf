@@ -1,0 +1,106 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 168 208)
+	(text "Control_14" (rect 5 0 66 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 176 25 188)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Start" (rect 0 0 27 14)(font "Arial" (font_size 8)))
+		(text "Start" (rect 21 27 48 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 44 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "In" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "In" (rect 122 27 131 41)(font "Arial" (font_size 8)))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(port
+		(pt 152 48)
+		(output)
+		(text "Bus2[1..0]" (rect 0 0 57 14)(font "Arial" (font_size 8)))
+		(text "Bus2[1..0]" (rect 74 43 131 57)(font "Arial" (font_size 8)))
+		(line (pt 152 48)(pt 136 48)(line_width 3))
+	)
+	(port
+		(pt 152 64)
+		(output)
+		(text "AU1_Bus3" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "AU1_Bus3" (rect 70 59 131 73)(font "Arial" (font_size 8)))
+		(line (pt 152 64)(pt 136 64))
+	)
+	(port
+		(pt 152 80)
+		(output)
+		(text "AU1_Bus4" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "AU1_Bus4" (rect 70 75 131 89)(font "Arial" (font_size 8)))
+		(line (pt 152 80)(pt 136 80))
+	)
+	(port
+		(pt 152 96)
+		(output)
+		(text "Bus5[1..0]" (rect 0 0 57 14)(font "Arial" (font_size 8)))
+		(text "Bus5[1..0]" (rect 74 91 131 105)(font "Arial" (font_size 8)))
+		(line (pt 152 96)(pt 136 96)(line_width 3))
+	)
+	(port
+		(pt 152 112)
+		(output)
+		(text "Bus7[1..0]" (rect 0 0 57 14)(font "Arial" (font_size 8)))
+		(text "Bus7[1..0]" (rect 74 107 131 121)(font "Arial" (font_size 8)))
+		(line (pt 152 112)(pt 136 112)(line_width 3))
+	)
+	(port
+		(pt 152 128)
+		(output)
+		(text "LR[4..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "LR[4..0]" (rect 88 123 131 137)(font "Arial" (font_size 8)))
+		(line (pt 152 128)(pt 136 128)(line_width 3))
+	)
+	(port
+		(pt 152 144)
+		(output)
+		(text "Opcode[3..0]" (rect 0 0 73 14)(font "Arial" (font_size 8)))
+		(text "Opcode[3..0]" (rect 58 139 131 153)(font "Arial" (font_size 8)))
+		(line (pt 152 144)(pt 136 144)(line_width 3))
+	)
+	(port
+		(pt 152 160)
+		(output)
+		(text "Done" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "Done" (rect 102 155 131 169)(font "Arial" (font_size 8)))
+		(line (pt 152 160)(pt 136 160))
+	)
+	(drawing
+		(rectangle (rect 16 16 136 176))
+	)
+)
